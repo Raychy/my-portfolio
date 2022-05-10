@@ -58,10 +58,10 @@ const Works = () => {
                         </div>
                         <div className="work-overlay">
                             <div className="work-content">
-                                <h3 className="work-title">Calculator Made with VueJS</h3>
+                                <h3 className="work-title">Social Media App</h3>
                                 <ul>
                                     <li><a className="image-popup" href="assets/images/work/w-3.jpg"><i className="lni-plus"></i></a></li>
-                                    <li><a href="https://github.com/Raychy/Calculator_made_with_vue"><i className="lni-link"></i></a></li>
+                                    <li><a href="https://github.com/Raychy"><i className="lni-link"></i></a></li>
                                 </ul>
                             </div>
                         </div>

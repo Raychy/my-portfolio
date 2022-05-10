@@ -18,7 +18,8 @@ const Aboutme = () => {
             <div className="col-lg-6">
                 <div className="about-content mt-50">
                     <h5 className="about-title">Hi There! I'm Adeyemi Racheal</h5>
-                    <p>I started my Career in tech path when I was in School (2016) and ever since then I've built so much passion for it. I started being a Fron-end developer before I later switched to mobile app development.</p>
+                    <p>I started my Career in tech path when I was in School (2016) and ever since then I've built so much passion for it. 
+                        I started as a Front-end developer (HTML, CSS, JAVASCRIPT, JQUERY, REACTJS, REDUX ) and added Mobile App developement using Flutter Framework</p>
                   
                 </div>
                  {/* <!-- about content --> */}
@@ -75,10 +76,27 @@ const Aboutme = () => {
                             </div>
                         </div>
                     </div> 
-                    {/* <!-- skill item --> */}
                     <div className="skill-item mt-25">
                         <div className="skill-header">
-                            <h6 className="skill-title">Flutter & Dart</h6>
+                            <h6 className="skill-title">ReactJS</h6>
+                            <div className="skill-percentage">
+                                <div className="count-box counted">
+                                    <span className="counter">70</span>
+                                </div>
+                                %
+                            </div>
+                        </div>
+                        <div className="skill-bar">
+                            <div className="bar-inner">
+                                <div className="bar progress-line" data-width="50"></div>
+                            </div>
+                        </div>
+                    </div> 
+                    {/*
+                     <!-- skill item --> */}
+                    <div className="skill-item mt-25">
+                        <div className="skill-header">
+                            <h6 className="skill-title">Flutter</h6>
                             <div className="skill-percentage">
                                 <div className="count-box counted">
                                     <span className="counter">90</span>

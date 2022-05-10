@@ -87,7 +87,7 @@ const Header = () => {
                             <div className="header-content-right">
                                 <h4 className="sub-title">Hello, I’m</h4>
                                 <h1 className="title" style={{fontSize:'48px'}} >Adeyemi Racheal</h1>
-                                <p>I'm a Mobile App Developer, Techpreneur, Developer Advocate (Programmers Hub), </p>
+                                <p>I'm a Frontend,  Mobile App Developer, Techpreneur, Developer Advocate (Programmers Hub), </p>
                                 <Link className="main-btn page-scroll" to="#work">View my Work</Link>
                             </div>
                             {/* <!-- header content right --> */}
@@ -109,9 +109,9 @@ const Header = () => {
                                 <div className="header-social-icon">
                                     <ul>
                                         <li><Link to="https://www.facebook.com/cyberbizkit/"><i className="lni-facebook-filled"></i></Link></li>
-                                        <li><Link to="https://www.twitter.com/raychy/"><i className="lni-twitter-original"></i></Link></li>
+                                        <li><Link to="https://www.twitter.com/cyberbizkit/"><i className="lni-twitter-original"></i></Link></li>
                                         <li><Link to="https://github.com/Raychy"><i className="lni-github"></i></Link></li>
-                                        <li><Link to="https://www.linkedin.com/in/adeyemi-racheal-0763aa192/"><i className="lni-linkedin-original"></i></Link></li>
+                                        <li><Link to="https://www.linkedin.com/in/cyberbizkit/"><i className="lni-linkedin-original"></i></Link></li>
                                     </ul>
                                 </div>
                                 {/* <!-- header social --> */}
