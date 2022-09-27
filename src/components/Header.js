@@ -86,15 +86,15 @@ const Header = () => {
                         <div className="col-xl-5 col-lg-6">
                             <div className="header-content-right">
                                 <h4 className="sub-title">Hello, I’m</h4>
-                                <h1 className="title" style={{fontSize:'48px'}} >Adeyemi Racheal</h1>
-                                <p>I'm a Frontend,  Mobile App Developer, Techpreneur, Developer Advocate (Programmers Hub), </p>
+                                <h1 className="title" style={{ fontSize: '48px' }} >Adeyemi Racheal</h1>
+                                <p>I'm a Frontend,  Flutter App Developer, Techpreneur, Developer Advocate (Programmers Hub), Member SheCodeAfrica Abeokuta Chapter. </p>
                                 <Link className="main-btn page-scroll" to="#work">View my Work</Link>
                             </div>
                             {/* <!-- header content right --> */}
                         </div>
                         <div className="col-lg-6 offset-xl-1">
                             <div className="header-image d-none d-lg-block">
-                                <img src="assets/images/rayy.jpg" alt="hero"  stylw={{width:"426px", heigth:'640px'}}/>
+                                <img src="assets/images/ade.jpg" alt="hero" style={{ width: "410px", heigth: '300px' }} />
                             </div>
                             {/* <!-- header image --> */}
                         </div>

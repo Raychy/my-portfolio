@@ -10,7 +10,7 @@ const CallToActon = () => {
                         <h2 className="action-title">Have any project on mind?</h2>
                         <p>Why not hire me now </p>
                         <ul>
-                            <li><a className="main-btn custom" href="assets/images/racheal-adeyemi.pdf" download = "racheal-adeyemi.pdf">download cv</a></li>
+                            <li><a className="main-btn custom" href="assets/images/racheal.pdf" download = "racheal-adeyemi.pdf">download cv</a></li>
                             <li><a className="main-btn custom-2" href="tel:+234-813-069-2014">hire me</a></li>
                         </ul>
                     </div>

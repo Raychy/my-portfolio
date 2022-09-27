@@ -30,7 +30,7 @@ const Home = () => {
             <Footer />
 
             {/* <Link to="/" className="back-to-top"><i className="lni-chevron-up"></i></Link> */}
-            <a href="#" className="back-to-top page-scroll"><i className="lni-chevron-up"></i></a>
+            <Link to='/'  className="back-to-top page-scroll"><i className="lni-chevron-up"></i></Link>
 
 
         </>

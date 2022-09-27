@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Works = () => {
     return (
@@ -75,7 +75,7 @@ const Works = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="work-more text-center mt-50">
-                        <a className="main-btn" href="https://github.com/Raychy/">more works</a>
+                        <a className="main-btn" href="assets/images/racheal.pdf" download = "racheal-adeyemi.pdf">more works</a>
                     </div> 
                     {/* <!-- work more --> */}
                 </div>
