@@ -49,8 +49,8 @@ const Works = () => {
                                     <h3 className="work-title">A sleep tracker system</h3>
                                     <p className="work-titl" style={{color:'white', marginTop:'-20px'}}>(Vue JS, Firebase)</p>
                                     <ul>
-                                        <li><a className="image-popup" href="assets/images/go.jpg"><i className="lni-plus"></i></a></li>
-                                        <li><a href="https://play.google.com/store/apps/details?id=io.devcareer.gospel_unites"><i className="lni-link"></i></a></li>
+                                        <li><a className="image-popup" href="assets/images/tracker.PNG"  target='_blank'><i className="lni-plus"></i></a></li>
+                                        <li><a href="https://dailysleeptrack.netlify.app/" target='_blank'><i className="lni-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
