@@ -1,4 +1,5 @@
 import React from 'react'
+import ScriptTag from 'react-script-tag';
 
 const Aboutme = () => {
     return (
@@ -18,10 +19,24 @@ const Aboutme = () => {
                     <div className="col-lg-6">
                         <div className="about-content mt-50">
                             <h5 className="about-title">Hi There! I'm Adeyemi Racheal Oyindamola</h5>
-                            <p>I started my  tech career path when I was in School (Federal Polytechnic Ilaro, Ogun State) in 2016 studying Computer Science  and ever since then I've built so much passion for it.
-                                I started as a Front-end developer (HTML, CSS, JAVASCRIPT, JQUERY, REACTJS ) and added Mobile App developement using Flutter Framework and Dart. 
-                                </p>
-                            <p>I've been able to work with team to develop both Web applications and Mobile Application. </p>
+                            <p>
+                                A passionate Frontend Developer with a keen eye for
+                                detail and a love for crafting delightful user experiences. I
+                                specialize in building modern and responsive web applications
+                                using HTML, CSS, Bootstrap, SaSS, Tailwind CSS, Vue Js, Nuxt
+                                JS, React JS, Flutter and Dart.
+                            </p>
+                            <p>
+                                With 4 years of experience in the industry, I have
+                                successfully delivered user-centric projects and collaborated
+                                with cross-functional teams to bring designs to life. My
+                                expertise in Frontend tools empowers me to create dynamic,
+                                interactive, and performant applications while ensuring clean
+                                and maintainable code.
+                            </p>
+                            <p>I graduated with a degree in Computer Science, I am deeply committed to honing my technical skills and broadening my knowledge.
+                                I actively contribute to the developer community through tech trainings
+                                and participating in open-source projects.</p>
 
                         </div>
                         {/* <!-- about content --> */}
@@ -30,7 +45,7 @@ const Aboutme = () => {
                         <div className="about-skills pt-25">
                             <div className="skill-item mt-25">
                                 <div className="skill-header">
-                                    <h6 className="skill-title">HTML</h6>
+                                    <h6 className="skill-title">HTML & CSS</h6>
                                     <div className="skill-percentage">
                                         <div className="count-box counted">
                                             <span className="counter">100</span>
@@ -40,14 +55,14 @@ const Aboutme = () => {
                                 </div>
                                 <div className="skill-bar">
                                     <div className="bar-inner">
-                                        <div className="bar progress-line" data-width="80"></div>
+                                        <div className="bar progress-line progress-line-100" data-width="80"></div>
                                     </div>
                                 </div>
                             </div>
                             {/* <!-- skill item --> */}
                             <div className="skill-item mt-25">
                                 <div className="skill-header">
-                                    <h6 className="skill-title">CSS</h6>
+                                    <h6 className="skill-title">TailwindCSS</h6>
                                     <div className="skill-percentage">
                                         <div className="count-box counted">
                                             <span className="counter">100</span>
@@ -57,7 +72,7 @@ const Aboutme = () => {
                                 </div>
                                 <div className="skill-bar">
                                     <div className="bar-inner">
-                                        <div className="bar progress-line" data-width="60"></div>
+                                        <div className="bar progress-line progress-line-100" data-width="60"></div>
                                     </div>
                                 </div>
                             </div>
@@ -67,14 +82,30 @@ const Aboutme = () => {
                                     <h6 className="skill-title">Javascript </h6>
                                     <div className="skill-percentage">
                                         <div className="count-box counted">
-                                            <span className="counter">70</span>
+                                            <span className="counter">90</span>
                                         </div>
                                         %
                                     </div>
                                 </div>
                                 <div className="skill-bar">
                                     <div className="bar-inner">
-                                        <div className="bar progress-line" data-width="50"></div>
+                                        <div className="bar progress-line progress-line-90" data-width="50"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="skill-item mt-25">
+                                <div className="skill-header">
+                                    <h6 className="skill-title">VueJS</h6>
+                                    <div className="skill-percentage">
+                                        <div className="count-box counted">
+                                            <span className="counter">80</span>
+                                        </div>
+                                        %
+                                    </div>
+                                </div>
+                                <div className="skill-bar">
+                                    <div className="bar-inner">
+                                        <div className="bar progress-line progress-line-80" data-width="50"></div>
                                     </div>
                                 </div>
                             </div>
@@ -83,14 +114,14 @@ const Aboutme = () => {
                                     <h6 className="skill-title">ReactJS</h6>
                                     <div className="skill-percentage">
                                         <div className="count-box counted">
-                                            <span className="counter">70</span>
+                                            <span className="counter">80</span>
                                         </div>
                                         %
                                     </div>
                                 </div>
                                 <div className="skill-bar">
                                     <div className="bar-inner">
-                                        <div className="bar progress-line" data-width="50"></div>
+                                        <div className="bar progress-line progress-line-80" data-width="80"></div>
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +139,7 @@ const Aboutme = () => {
                                 </div>
                                 <div className="skill-bar">
                                     <div className="bar-inner">
-                                        <div className="bar progress-line" data-width="90"></div>
+                                        <div className="bar progress-line progress-line-90" data-width="90"></div>
                                     </div>
                                 </div>
                             </div>
@@ -119,8 +150,14 @@ const Aboutme = () => {
                 </div>
                 {/* <!-- row --> */}
             </div>
+            <ScriptTag isHydrating={true} type="text/javascript"
+                src=
+                "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" />
+
+            <ScriptTag type="text/javascript" src="./assets/images/main.js" />
             {/* <!-- container --> */}
         </section>
+
     )
 }
 

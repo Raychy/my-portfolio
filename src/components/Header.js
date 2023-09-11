@@ -87,14 +87,18 @@ const Header = () => {
                             <div className="header-content-right">
                                 <h4 className="sub-title">Hello, I’m</h4>
                                 <h1 className="title" style={{ fontSize: '48px' }} >Adeyemi Racheal</h1>
-                                <p>I'm a Frontend,  Flutter App Developer, Techpreneur, Developer Advocate (Programmers Hub), Member SheCodeAfrica Abeokuta Chapter. </p>
+                                <p> A passionate Frontend Developer with a keen eye for
+                                detail and a love for crafting delightful user experiences. I
+                                specialize in building modern and responsive web applications
+                                using HTML, CSS, Bootstrap, SaSS, Tailwind CSS, Vue Js, Nuxt
+                                JS, React JS, Flutter and Dart. </p>
                                 <Link className="main-btn page-scroll" to="#work">View my Work</Link>
                             </div>
                             {/* <!-- header content right --> */}
                         </div>
                         <div className="col-lg-6 offset-xl-1">
                             <div className="header-image d-none d-lg-block">
-                                <img src="assets/images/ade.jpg" alt="hero" style={{ width: "410px", heigth: '300px' }} />
+                                <img src="assets/images/cyber23.png" alt="hero" style={{ width: "410px", heigth: '300px' }} />
                             </div>
                             {/* <!-- header image --> */}
                         </div>

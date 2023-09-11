@@ -738,7 +738,9 @@ p {
     z-index: 11; }
   .header-image img {
     position: relative;
-    z-index: 5; }
+    z-index: 5;
+    /* margin-top: -50% !important; */
+   }
 
 .header-social {
   position: absolute;
@@ -866,8 +868,20 @@ p {
       -ms-transition: all 2s ease-out 0s;
       -o-transition: all 2s ease-out 0s;
       transition: all 2s ease-out 0s;
-      width: 0; }
-
+       
+    }
+    .progress-line-100{
+      width: 100%;
+    }
+    .progress-line-90{
+      width: 90%;
+    }
+    .progress-line-80{
+      width: 80%;
+    }
+    .progress-line-70{
+      width: 70%;
+    }
 /*===========================
         4.SERVICES css 
 ===========================*/
