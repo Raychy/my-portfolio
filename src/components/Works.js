@@ -60,14 +60,15 @@ const Works = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-work text-center mt-30">
                             <div className="work-image">
-                                <img src="assets/images/work/w-3.jpg" alt="work" />
+                                <img src="assets/images/gall.png" alt="work" />
                             </div>
                             <div className="work-overlay">
                                 <div className="work-content">
-                                    <h3 className="work-title">Social Media App</h3>
+                                    <h3 className="work-title">An Image gallery using Unsplash Image API</h3>
+                                    <p className="work-titl" style={{color:'white', marginTop:'-20px'}}>(Vue JS, Unsplash Image API)</p>
                                     <ul>
-                                        <li><a className="image-popup" href="assets/images/work/w-3.jpg"><i className="lni-plus"></i></a></li>
-                                        <li><a href="https://github.com/Raychy"><i className="lni-link"></i></a></li>
+                                        <li><a className="image-popup" href="assets/images/gallery.png" target='_blank'><i className="lni-plus"></i></a></li>
+                                        <li><a href="https://photo-galleries.netlify.app" target='_blank'><i className="lni-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
