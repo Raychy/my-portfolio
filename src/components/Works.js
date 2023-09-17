@@ -23,26 +23,25 @@ const Works = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-work text-center mt-30">
                             <div className="work-image">
-                                <img src="assets/images/clone-website.png" alt="website-clone" style={{ height: '360px' }} />
+                                <img src="assets/images/weather-app.png" alt="work" style={{ height: '300px' }}/>
                             </div>
                             <div className="work-overlay">
                                 <div className="work-content">
-                                    <h3 className="work-title">A cloned Business website</h3>
-                                    <p className="work-titl" style={{color:'white', marginTop:'-20px'}}>(TailwindCss, Nuxt JS)</p>
+                                    <h3 className="work-title">Weather forecast App</h3>
                                     <ul>
-                                        <li><a className="image-popup" href="assets/images/website-clone.PNG" target='_blank'><i className="lni-plus"></i></a></li>
-                                        <li><a href="https://github.com/Raychy/brand-website" target='_blank'><i className="lni-link"></i></a></li>
+                                        <li><a className="image-popup" href="assets/images/weather.PNG" target='_blank'><i className="lni-plus"></i></a></li>
+                                        <li><a href="https://weatherr-web-app.netlify.app/" target='_blank'><i className="lni-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        {/*
-                    //   <!-- single work --> */}
+                        {/* <!-- single work --> */}
                     </div>
+                    
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-work text-center mt-30">
                             <div className="work-image">
-                                <img src="assets/images/sleep-tracker.png" alt="work" style={{ height: '360px' }} />
+                                <img src="assets/images/sleep-tracker.png" alt="work" style={{ height: '300px' }} />
                             </div>
                             <div className="work-overlay">
                                 <div className="work-content">
@@ -60,7 +59,7 @@ const Works = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-work text-center mt-30">
                             <div className="work-image">
-                                <img src="assets/images/gall.png" alt="work" />
+                                <img src="assets/images/gall.png" alt="work" style={{ height: '300px' }} />
                             </div>
                             <div className="work-overlay">
                                 <div className="work-content">
@@ -79,10 +78,29 @@ const Works = () => {
 
                 </div>
                 <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-6">
+                        <div className="single-work text-center mt-30">
+                            <div className="work-image">
+                                <img src="assets/images/clone-website.png" alt="website-clone" style={{ height: '300px' }} />
+                            </div>
+                            <div className="work-overlay">
+                                <div className="work-content">
+                                    <h3 className="work-title">A cloned Business website</h3>
+                                    <p className="work-titl" style={{color:'white', marginTop:'-20px'}}>(TailwindCss, Nuxt JS)</p>
+                                    <ul>
+                                        <li><a className="image-popup" href="assets/images/website-clone.PNG" target='_blank'><i className="lni-plus"></i></a></li>
+                                        <li><a href="https://github.com/Raychy/brand-website" target='_blank'><i className="lni-link"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {/*
+                    //   <!-- single work --> */}
+                    </div>
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-work text-center mt-30">
                             <div className="work-image">
-                                <img src="assets/images/art.jpg" alt="work" style={{ height: '360px' }} />
+                                <img src="assets/images/art.jpg" alt="work" style={{ height: '300px' }} />
                             </div>
                             <div className="work-overlay">
                                 <div className="work-content">
@@ -100,7 +118,7 @@ const Works = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="single-work text-center mt-30">
                             <div className="work-image">
-                                <img src="assets/images/go.jpg" alt="work" style={{ height: '360px' }} />
+                                <img src="assets/images/go.jpg" alt="work" style={{ height: '300px' }} />
                             </div>
                             <div className="work-overlay">
                                 <div className="work-content">
@@ -114,23 +132,7 @@ const Works = () => {
                         </div>
                         {/* <!-- single work --> */}
                     </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6">
-                        <div className="single-work text-center mt-30">
-                            <div className="work-image">
-                                <img src="assets/images/work/w-3.jpg" alt="work" />
-                            </div>
-                            <div className="work-overlay">
-                                <div className="work-content">
-                                    <h3 className="work-title">Social Media App</h3>
-                                    <ul>
-                                        <li><a className="image-popup" href="assets/images/work/w-3.jpg"><i className="lni-plus"></i></a></li>
-                                        <li><a href="https://github.com/Raychy"><i className="lni-link"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <!-- single work --> */}
-                    </div>
+                    
 
 
                 </div>
