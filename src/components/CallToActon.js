@@ -1,6 +1,8 @@
 import React from 'react'
+import ResumeViewer from './Resume';
 
 const CallToActon = () => {
+    const resumeUrl = 'https://docs.google.com/document/d/1rblyYWFk_BUrWZ6wOUgPMSnkQ2VU5R-bOovzM-sP_sE/edit?usp=sharing';
     return (
         <section id="call-to-action" className="call-to-action pt-125 pb-130 bg_cover" style={{backgroundImage: 'url(assets/images/call-to-action.jpg)'}}>
         <div className="container">
@@ -10,7 +12,8 @@ const CallToActon = () => {
                         <h2 className="action-title">Have any project on mind?</h2>
                         <p>Why not hire me now </p>
                         <ul>
-                            <li><a className="main-btn custom" href="assets/images/adeyemi_racheal.pdf" download = "racheal-adeyemi.pdf">download cv</a></li>
+                        {/* <ResumeViewer fileUrl={resumeUrl} /> */}
+                            <li><a className="main-btn custom" href={resumeUrl} target='_blank' >See my resume</a></li>
                             <li><a className="main-btn custom-2" href="tel:+234-813-069-2014">hire me</a></li>
                         </ul>
                     </div>
